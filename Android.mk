@@ -11,6 +11,7 @@ include $(CLEAR_VARS)
 LOCAL_CPP_EXTENSION := .cc
 
 LOCAL_MODULE := libchromium_net
+LOCAL_ARM_MODE := arm
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 INTERMEDIATES := $(call local-intermediates-dir)
 
